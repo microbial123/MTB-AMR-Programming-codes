@@ -1,1 +1,5 @@
-# MTB-AMR-Programming-codes
+# A Machine Learning Framework to Antimicrobial Resistance Prediction and Characterization of AMR-Related SNPs in Mycobacterium tuberculosis
+## Brief overview
+In this study, we applied this machine learning (ML) framework to predict resistance phenotypes for 12 anti-tuberculosis drugs while outputting SNPs associated with resistance. Then, the SHapley Additive exPlanations (SHAP) framework was used to decipher why and how decisions were made in the optimal algorithm. Lastly, we applied the models to predict the resistance phenotype to rifampicin (RIF) and isoniazid (INH) in an additional independent MTB isolates dataset from India.
+## Programming codes
+These are the programming codes used in our paper "A Machine Learning Framework to Antimicrobial Resistance Prediction and Characterization of AMR-Related SNPs in Mycobacterium tuberculosis". Please refer to 01.QC_SNPcalling for QC and SNP calling on WGS data.Then for the steps of machine learning model training, testing, significant SNPs outputting and plotting for each specific antibiotic, please refer to 02.Model_training_test/Rifampicin_model.py. The code for the SHAP process is at 02.Model_training_test/SHAP.ipynb. Finally, the code for the process of independent validation of 166 MTB isolates from India is at 03.To_predict.
